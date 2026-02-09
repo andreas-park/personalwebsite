@@ -1,0 +1,295 @@
+/* ===== Typography — Avenir / Nunito Sans ===== */
+:root {
+  --font-main: "Avenir", "Avenir Next", "Nunito Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body,
+.post-content,
+.post-title,
+.profile .hdr,
+.nav,
+.breadcrumbs,
+.footer {
+  font-family: var(--font-main);
+}
+
+/* Body text — light weight for the thin feel */
+body {
+  font-weight: 350;
+}
+
+/* Headings — medium weight, not too heavy */
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.profile .hdr .name {
+  font-weight: 500;
+}
+
+/* Navigation — light-medium */
+.nav a,
+.menu a,
+.breadcrumbs a {
+  font-weight: 400;
+}
+
+/* Bold text — semibold rather than heavy bold */
+strong, b {
+  font-weight: 600;
+}
+
+/* Profile name on home page — slightly heavier for impact */
+.profile .hdr .name {
+  font-weight: 550;
+}
+
+/* Site title in header */
+.logo a {
+  font-weight: 500;
+}
+
+/* ===== Academic Profile Customizations for PaperMod ===== */
+
+/* Research page - publication list styling */
+.post-content ol {
+  counter-reset: none;
+}
+
+.post-content ol li {
+  margin-bottom: 1.2em;
+  line-height: 1.6;
+}
+
+.post-content ol li strong:first-child {
+  display: inline;
+}
+
+/* Publication journal names */
+.post-content ol li em {
+  color: var(--secondary);
+}
+
+/* Section headers on content pages */
+.post-content h2 {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+}
+
+/* Social feed sections */
+.social-feed-section {
+  margin: 1.5em 0;
+  padding: 1em;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+.social-note {
+  font-size: 0.9em;
+  color: var(--secondary);
+}
+
+/* Profile mode subtitle - better line spacing */
+.profile .hdr .subtitle {
+  line-height: 1.8;
+}
+
+/* Home page buttons styling */
+.profile .hdr .button {
+  margin: 0.3em;
+}
+
+/* Giscus comment section spacing */
+.giscus-comments {
+  margin-top: 2em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--border);
+}
+
+/* Co-author list styling */
+.post-content ul li {
+  margin-bottom: 0.6em;
+  line-height: 1.5;
+}
+
+/* Scam warning styling */
+.post-content p:last-child:has(strong) {
+  padding: 1em;
+  background: rgba(255, 193, 7, 0.1);
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+}
+
+/* Blog post list - better spacing */
+.post-entry {
+  margin-bottom: 1em;
+}
+
+/* Tag styling */
+.post-tags a {
+  font-size: 0.85em;
+}
+
+/* ===== Policy Papers - Expandable Abstracts ===== */
+.policy-papers details {
+  margin: 0.8em 0 1.5em 0;
+}
+
+.policy-papers details summary {
+  cursor: pointer;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 0.95em;
+  padding: 0.4em 0;
+  user-select: none;
+  transition: color 0.2s;
+}
+
+.policy-papers details summary:hover {
+  color: var(--content);
+}
+
+.policy-papers details[open] summary {
+  margin-bottom: 0.5em;
+}
+
+.policy-papers details p {
+  padding: 0.8em 1em;
+  margin: 0;
+  background: var(--code-bg);
+  border-left: 3px solid var(--border);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.92em;
+  line-height: 1.7;
+  color: var(--secondary);
+}
+
+.policy-papers h3 {
+  margin-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+.policy-papers hr {
+  margin: 1.5em 0;
+  border-color: var(--border);
+}
+
+/* ===== Media page styling ===== */
+.post-content h3 + ul {
+  margin-top: 0.5em;
+}
+
+.post-content h3 + ul li {
+  margin-bottom: 0.8em;
+}
+
+/* ===== Podcast page styling ===== */
+.post-content h3 + p strong {
+  color: var(--secondary);
+}
+
+/* ===== Dropdown Menu ===== */
+
+/* Override PaperMod's overflow:auto which clips the dropdown */
+#menu {
+  overflow: visible !important;
+}
+
+#menu li.dropdown {
+  position: relative;
+}
+
+#menu li.dropdown > a {
+  cursor: default;
+}
+
+#menu li.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4em 0;
+  min-width: 170px;
+  z-index: 1000;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  white-space: nowrap;
+  margin: 0;
+}
+
+#menu li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Reset PaperMod's li + li margin for dropdown children */
+#menu li.dropdown .dropdown-menu li,
+#menu li.dropdown .dropdown-menu li + li {
+  margin: 0;
+  margin-inline-start: 0;
+}
+
+#menu li.dropdown .dropdown-menu li a {
+  display: block;
+  padding: 0.35em 1.2em;
+  font-size: 14px;
+  line-height: 1.8;
+  white-space: nowrap;
+}
+
+#menu li.dropdown .dropdown-menu li a:hover {
+  background: var(--code-bg);
+  border-radius: 0;
+}
+
+/* ===== Responsive adjustments ===== */
+@media (max-width: 768px) {
+  .social-feed-section {
+    padding: 0.5em;
+  }
+
+  .profile .hdr .button {
+    margin: 0.2em;
+    font-size: 0.9em;
+  }
+
+  .policy-papers details p {
+    padding: 0.5em 0.8em;
+    font-size: 0.88em;
+  }
+
+  /* Mobile: show dropdown items inline */
+  #menu li.dropdown .dropdown-menu {
+    position: static;
+    transform: none;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+    min-width: auto;
+  }
+
+  #menu li.dropdown .dropdown-menu li a {
+    padding: 0.3em 0.8em;
+    font-size: 0.85em;
+  }
+}
+
+/* Print-friendly */
+@media print {
+  .social-feed-section,
+  .giscus-comments {
+    display: none;
+  }
+
+  .policy-papers details {
+    display: block;
+  }
+
+  .policy-papers details[open] p {
+    background: none;
+    border-left: 1px solid #ccc;
+  }
+}

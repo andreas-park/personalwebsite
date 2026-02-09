@@ -1,0 +1,153 @@
+baseURL = "https://andreaspark.com/"
+languageCode = "en-us"
+title = "Andreas Park"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+
+[params]
+  author = "Andreas Park"
+  description = "Professor of Finance at the University of Toronto — Research on financial market structure, FinTech, blockchain, and DeFi."
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  images = ["/images/profile.jpg"]
+
+  [params.homeInfoParams]
+    Title = "Andreas Park"
+    Content = ""
+
+  [params.profileMode]
+    enabled = true
+    title = "Andreas Park"
+    subtitle = """Professor of Finance · University of Toronto\n\nRotman School of Management · Department of Management, UTM\n\nAcademic Director, [FinHub](https://www.rotman.utoronto.ca/finhub)"""
+    imageUrl = "images/comicAP.png"
+    imageWidth = 250
+    imageHeight = 375
+    imageTitle = "Andreas Park"
+
+    [[params.profileMode.buttons]]
+      name = "Research"
+      url = "/research/"
+    [[params.profileMode.buttons]]
+      name = "Research-AI-Blog"
+      url = "/blog/"
+    [[params.profileMode.buttons]]
+      name = "CV"
+      url = "/cv.pdf"
+    [[params.profileMode.buttons]]
+      name = "Teaching"
+      url = "/teaching/"
+
+  [params.giscus]
+    enabled = true
+    repo = "andreas-park/personalwebsite"
+    repoID = "REPLACE_WITH_REPO_ID"
+    category = "Announcements"
+    categoryID = "REPLACE_WITH_CATEGORY_ID"
+    mapping = "pathname"
+    reactionsEnabled = "1"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"
+    lang = "en"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/financeutm"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/andreaspark/"
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=d68d39AAAAAJ"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:andreas.park@rotman.utoronto.ca"
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "https://youtube.com/user/andreaspark2812/"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/andreas-park"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    identifier = "blog"
+    name = "Research-AI-Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    identifier = "teaching"
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 4
+  [[menu.main]]
+    identifier = "podcast"
+    name = "Podcast"
+    url = "/podcast/"
+    weight = 5
+  [[menu.main]]
+    identifier = "more"
+    name = "More"
+    url = "#"
+    weight = 6
+  [[menu.main]]
+    identifier = "policy"
+    name = "Policy"
+    url = "/policy/"
+    parent = "more"
+    weight = 1
+  [[menu.main]]
+    identifier = "media"
+    name = "Media"
+    url = "/media/"
+    parent = "more"
+    weight = 2
+  [[menu.main]]
+    identifier = "social"
+    name = "Social"
+    url = "/social/"
+    parent = "more"
+    weight = 3
+  [[menu.main]]
+    identifier = "links"
+    name = "Links"
+    url = "/links/"
+    parent = "more"
+    weight = 4
+  [[menu.main]]
+    identifier = "grad-programs"
+    name = "Grad Programs"
+    url = "/grad-programs/"
+    parent = "more"
+    weight = 5
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    parent = "more"
+    weight = 6
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
