@@ -36,9 +36,6 @@ enableRobotsTXT = true
       name = "Research"
       url = "/research/"
     [[params.profileMode.buttons]]
-      name = "Research-AI-Blog"
-      url = "/blog/"
-    [[params.profileMode.buttons]]
       name = "CV"
       url = "/cv.pdf"
     [[params.profileMode.buttons]]
@@ -88,25 +85,20 @@ enableRobotsTXT = true
     url = "/research/"
     weight = 2
   [[menu.main]]
-    identifier = "blog"
-    name = "Research-AI-Blog"
-    url = "/blog/"
-    weight = 3
-  [[menu.main]]
     identifier = "teaching"
     name = "Teaching"
     url = "/teaching/"
-    weight = 4
+    weight = 3
   [[menu.main]]
     identifier = "podcast"
     name = "Podcast"
     url = "/podcast/"
-    weight = 5
+    weight = 4
   [[menu.main]]
     identifier = "more"
     name = "More"
     url = "#"
-    weight = 6
+    weight = 5
   [[menu.main]]
     identifier = "policy"
     name = "Policy"
