@@ -99,27 +99,31 @@ summary: "Publications, working papers, and other research by Andreas Park."
 
 ## Current Working Papers
 
-1. **Learning from DeFi: Would Automated Market Makers Improve Equity Trading?** (with Katya Malinova)
+1. **Dethroning the Dollar? Optimal Multi-Asset Market Making** (with Katya Malinova)
+   September 2026.
+   [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7432398)
+
+2. **Learning from DeFi: Would Automated Market Makers Improve Equity Trading?** (with Katya Malinova)
    February 2023.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4531670)
 
-2. **Phantom Liquidity in Decentralized Lending** (with Jona Stinner)
+3. **Phantom Liquidity in Decentralized Lending** (with Jona Stinner)
    June 2023.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4489732)
 
-6. **Do Retail Traders Suffer from High Frequency Traders?** (with Katya Malinova, Ryan Riordan)
+4. **Do Retail Traders Suffer from High Frequency Traders?** (with Katya Malinova, Ryan Riordan)
    April 2016.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2183806)
 
-7. **Cross-Subsidizing Liquidity** (with Anqi Liu, Sean Foley, Katya Malinova, Andriy Shkilko)
+5. **Cross-Subsidizing Liquidity** (with Anqi Liu, Sean Foley, Katya Malinova, Andriy Shkilko)
    August 2020.
    [TMX](https://www.tmx.com/resource/en/799)
 
-8. **Did Trading Bots Resurrect the CAPM?** (with Jinhua Wang)
+6. **Did Trading Bots Resurrect the CAPM?** (with Jinhua Wang)
    January 2020.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3515635)
 
-9. **Sniping in Fragmented Markets** (with Katya Malinova)
+7. **Sniping in Fragmented Markets** (with Katya Malinova)
    June 2020.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3534367)
 

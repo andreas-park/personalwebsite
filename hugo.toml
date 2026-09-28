@@ -17,7 +17,7 @@ enableRobotsTXT = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = false
-  images = ["/images/profile.jpg"]
+  images = ["/images/social-preview.png"]
 
   [params.homeInfoParams]
     Title = "Andreas Park"

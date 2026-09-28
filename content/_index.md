@@ -1,5 +1,6 @@
 ---
-title: "Home"
+title: "Andreas Park"
+description: "Professor of Finance at the University of Toronto. Research on financial markets, FinTech, blockchain, and decentralized finance."
 layout: "home"
 ---
 
