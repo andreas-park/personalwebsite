@@ -19,6 +19,13 @@ enableRobotsTXT = true
   ShowToc = false
   images = ["/images/social-preview.png"]
 
+  [params.assets]
+    favicon = "/icons/ap-v2.ico"
+    favicon16x16 = "/icons/ap-v2-16.png"
+    favicon32x32 = "/icons/ap-v2-32.png"
+    apple_touch_icon = "/icons/ap-v2-apple.png"
+    safari_pinned_tab = "/icons/ap-pinned-v2.svg"
+
   [params.homeInfoParams]
     Title = "Andreas Park"
     Content = ""
@@ -41,6 +48,10 @@ enableRobotsTXT = true
     [[params.profileMode.buttons]]
       name = "Teaching"
       url = "/teaching/"
+
+    [[params.profileMode.buttons]]
+      name = "Bio"
+      url = "/bio/"
 
   [params.giscus]
     enabled = true
