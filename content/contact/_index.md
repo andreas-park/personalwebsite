@@ -15,6 +15,7 @@ summary: "How to reach Andreas Park."
 **Affiliation:**
 - Rotman School of Management, University of Toronto
 - Department of Management, University of Toronto Mississauga
+- Institute of Management and Innovation, University of Toronto
 
 ---
 

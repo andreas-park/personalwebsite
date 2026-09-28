@@ -9,7 +9,7 @@ summary: "Policy papers, primers, and industry reports on blockchain, DeFi, and 
 <div class="policy-papers">
 
 ### DeFi vs. TradFi: Institutions and Industrial Organization
-**May 2025** · Prepared for the Wharton School
+**May 2025** · Prepared for the Wharton Initiative for Policy Research
 
 A comprehensive analysis of the institutional differences between decentralized finance and traditional finance, examining organizational structures and the evolving industrial landscape.
 
@@ -18,11 +18,11 @@ A comprehensive analysis of the institutional differences between decentralized 
 <p>This paper examines the institutional structures underlying decentralized finance (DeFi) and contrasts them with the organizational forms prevalent in traditional finance (TradFi). It explores how DeFi's permissionless, composable architecture leads to fundamentally different industrial organization outcomes compared to the intermediary-heavy structure of TradFi.</p>
 </details>
 
-[SSRN](https://papers.ssrn.com/)
+[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6800172)
 
 ---
 
-### A 2024 Primer on the Financialization of Blockchains Backoffice Operations
+### A 2024 Primer on the Financialization of Blockchains’ Backoffice Operations and the Emerging Risks
 **September 2024** · Prepared for the Global Risk Institute
 
 An overview of how blockchain infrastructure is being integrated into the backoffice operations of traditional financial institutions.

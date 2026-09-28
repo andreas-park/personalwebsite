@@ -1,0 +1,8 @@
+{{- define "main" }}
+{{- partial "index_profile.html" . }}
+{{- with .Content }}
+<section class="post-content home-biography" aria-label="About Andreas Park">
+  {{ . }}
+</section>
+{{- end }}
+{{- end }}
