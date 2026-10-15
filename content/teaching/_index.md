@@ -33,6 +33,8 @@ I directed and taught the European University Institute’s Blockchain and Decen
 
 ## Teaching Resources
 
+**[The Jarring Market](https://jarring-game.andreaspark.com/):** A free classroom trading game in which students estimate a jar’s value and trade to explore how market prices aggregate information. Instructors can create a class and share a code with students; no signup is required.
+
 **All Presentation Slides:** [slides.com/ap248](https://slides.com/ap248)
 
 **Video Content:** [YouTube Channel](https://youtube.com/user/andreaspark2812/) — content delivery videos for various courses
