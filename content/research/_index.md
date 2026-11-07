@@ -3,7 +3,6 @@ title: "Research"
 layout: "single"
 summary: "Publications, working papers, and other research by Andreas Park."
 ---
-
 ## Publications
 
 1. **Multi-Currency AMMs for Decentralized FOREX Markets: Feasibility & Optimal Design** (with Reina Ke Xin Li, Andreas Veneris, Srisht Fateh Singh)
@@ -42,12 +41,12 @@ summary: "Publications, working papers, and other research by Andreas Park."
    [IEEE](https://ieeexplore.ieee.org/document/9223310)
 
 10. **Regulating Dark Trading: Order Flow Segmentation and Market Quality** (with Carole Comerton-Forde, Katya Malinova)
-   *Journal of Financial Economics*, November 2018, 130(2), pp. 347–366.
-   [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2755392) · [Online appendix](/dark-trading-online-appendix.pdf)
+    *Journal of Financial Economics*, November 2018, 130(2), pp. 347–366.
+    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2755392) · [Online appendix](/dark-trading-online-appendix.pdf)
 
 11. **Rushes in Large Timing Games** (with Axel Anderson, Lones Smith)
-   *Econometrica*, May 2017, 85(3), pp. 871–913.
-   [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2273777)
+    *Econometrica*, May 2017, 85(3), pp. 871–913.
+    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2273777)
 
 12. **Subsidizing Liquidity: The Impact of Make/Take Fees on Market Quality** (with Katya Malinova)
     *Journal of Finance*, April 2015, 70(2).
@@ -90,7 +89,6 @@ summary: "Publications, working papers, and other research by Andreas Park."
     [Link](https://econtheory.org/ojs/index.php/te/article/viewArticle/20080231)
 
 ---
-
 ## Book Chapters
 
 1. **AMM Pricing Functions: Concepts and Challenges**
@@ -100,40 +98,44 @@ summary: "Publications, working papers, and other research by Andreas Park."
    In *The Blockchain Scholars Book: Current Academic Insights Condensed for Busy Practitioners*, edited by Daniel Liebau and Simon Trimborn. Palgrave Macmillan, Singapore.
 
 ---
-
 ## Work in Progress
 
-1. **The Data Toll** (with Katya Malinova)
-   June 2026.
+1. **A Simple Theory of Portfolio Market Making** (with Katya Malinova)
+   November 2026.
 
-2. **Automated Liquidity** (with Katya Malinova)
+2. **CurveWeaver: A Trading Platform with Built-In Portfolio Market Making** (with Katya Malinova)
+   November 2026.
+
+3. **The Data Toll** (with Katya Malinova)
+   September 2026.
+
+4. **Automated Liquidity** (with Katya Malinova)
    October 2025.
 
-3. **Liquidity: Pool it or Lose it** (with Katya Malinova)
+5. **Liquidity: Pool it or Lose it** (with Katya Malinova)
    October 2025.
 
 ---
-
 ## Current Working Papers
 
 1. **Dethroning the Dollar? Optimal Multi-Asset Market Making** (with Katya Malinova)
-   September 2026.
+   November 2026.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7432398)
 
 2. **DeFi vs. TradFi: Institutions and Industrial Organization**
-   May 2025.
+   Revise and resubmit at *Research Policy*.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6800172)
 
 3. **Can Algorithmic Stablecoins Be Stable?** (with Jona Stinner)
-   April 2026.
+   September 2026.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6726540)
 
 4. **Learning from DeFi: Would Automated Market Makers Improve Equity Trading?** (with Katya Malinova)
-   November 2023.
+   November 2023. Revise and resubmit at the *Review of Financial Studies*.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4531670)
 
 5. **Phantom Liquidity in Decentralized Lending** (with Jona Stinner)
-   November 2023. Revised and resubmitted to *Management Science*.
+   November 2023. Revise and resubmit (second round) at *Management Science*.
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4489732)
 
 6. **Do Retail Traders Suffer from High Frequency Traders?** (with Katya Malinova, Ryan Riordan)
@@ -145,7 +147,6 @@ summary: "Publications, working papers, and other research by Andreas Park."
    [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3534367)
 
 ---
-
 ## Older Working Papers
 
 1. **Cross-Subsidizing Liquidity** (with Anqi Liu, Sean Foley, Katya Malinova, Andriy Shkilko)
@@ -175,14 +176,12 @@ summary: "Publications, working papers, and other research by Andreas Park."
    2019.
 
 ---
-
 ## Research Funding
 
 - **SSHRC Insight Grant, 2026–2029 (principal investigator):** Finance on Chain: Designing the Market Infrastructure for the Next Decade.
 - **SSHRC Insight Grant, 2026–2029 (co-applicant; Katya Malinova, principal investigator):** Reimagining Equity Market Structure: Data Fees, Platform Competition, and Asset Tokenization.
 
 ---
-
 ## Presentations & Slides
 
 All my presentation slides (research seminars, conference discussions, public lectures, and teaching) are hosted on **[slides.com/ap248](https://slides.com/ap248)**.

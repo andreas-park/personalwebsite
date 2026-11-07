@@ -11,6 +11,8 @@ summary: "Policy papers, primers, and industry reports on blockchain, DeFi, and 
 ### DeFi vs. TradFi: Institutions and Industrial Organization
 **May 2025** · Prepared for the Wharton Initiative for Policy Research
 
+Revise and resubmit at *Research Policy*.
+
 A comprehensive analysis of the institutional differences between decentralized finance and traditional finance, examining organizational structures and the evolving industrial landscape.
 
 <details>
