@@ -53,6 +53,10 @@ enableRobotsTXT = true
       name = "Bio"
       url = "/bio/"
 
+    [[params.profileMode.buttons]]
+      name = "Curveweaver"
+      url = "https://curveweaver.com/"
+
   [params.giscus]
     enabled = true
     repo = "andreas-park/personalwebsite"
